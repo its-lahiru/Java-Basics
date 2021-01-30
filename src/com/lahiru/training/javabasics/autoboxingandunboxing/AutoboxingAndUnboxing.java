@@ -24,6 +24,9 @@ public class AutoboxingAndUnboxing {
         int f = Integer.parseInt(e);
         System.out.println("result: " + (f + 1));
 
+        Integer newInteger = Integer.valueOf(12);
+        System.out.println(newInteger);
+
     }
 
 

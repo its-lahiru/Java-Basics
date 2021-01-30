@@ -26,7 +26,7 @@ public class WhyStringImmutable {
 
         // If we explicitly assign it to the reference variable, it will refer
         // to new "Sachin Tendulkar" object.
-        String s1="Sachin";
+        String s1 = "Sachin";
         s1 = s1.concat(" Tendulkar");
         System.out.println(s1);
     }

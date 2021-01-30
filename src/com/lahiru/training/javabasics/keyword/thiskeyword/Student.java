@@ -27,10 +27,10 @@ class PassAsParameter{
     // Inside the constructor, we invoke printInstance() method.
     // With this, we pass a reference to the current instance.
     public PassAsParameter(){
-        sayhello(this);
+        sayHello(this);
     }
 
-    public void sayhello(PassAsParameter passAsParameter){
+    public void sayHello(PassAsParameter passAsParameter){
         System.out.println("Hello world!");
     }
 

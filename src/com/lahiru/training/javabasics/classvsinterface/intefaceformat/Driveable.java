@@ -2,7 +2,7 @@ package com.lahiru.training.javabasics.classvsinterface.intefaceformat;
 
 //The JDK provides a number of interfaces like Map, List, and Set.
 //cannot instantiate unimplemented interfaces
-interface Driveable {
+interface Driveable extends Hello {
 
     void honk();
     void drive();

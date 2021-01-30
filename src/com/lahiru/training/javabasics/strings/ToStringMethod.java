@@ -7,7 +7,7 @@ public class ToStringMethod {
 
         // without toString() method
         /*
-        printing calvin prints the hashcode values of the objects but we want to print the
+        Printing calvin return the hashcode values of the objects. but we want to print the
         values of these objects. Since java compiler internally calls toString() method,
         overriding this method will return the specified values
          */

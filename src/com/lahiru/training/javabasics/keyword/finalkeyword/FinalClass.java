@@ -6,14 +6,14 @@ public final class FinalClass {
     int weight;
 }
 
-//public class Cat extends FinalClass{
+// Public class Cat extends FinalClass{
 //
 //}
 
 class Application{
     public static void main(String[] args) {
         //Note that the final keyword in a class declaration
-        // doesn’t mean that the objects of this class are immutable.
+        // does not mean that the objects of this class are immutable.
         // We can change the fields of Cat object freely
         FinalClass finalClass = new FinalClass();
         finalClass.weight = 100;

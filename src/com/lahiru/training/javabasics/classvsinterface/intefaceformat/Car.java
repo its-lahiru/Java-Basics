@@ -11,4 +11,9 @@ class Car implements Driveable{
     public void drive() {
         System.out.println("vroom vroom");
     }
+
+    @Override
+    public void sayHello() {
+        System.out.println("Hello world!");
+    }
 }

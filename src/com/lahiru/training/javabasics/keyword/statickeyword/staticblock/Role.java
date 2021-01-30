@@ -9,7 +9,7 @@ import java.util.List;
 public class Role {
 
     // In this example, it wouldn't be possible to initialize List object
-    // with all the initial values along with   declaration;
+    // with all the initial values along with declaration;
     // and that's why we've utilized the static block here.
     public static List<String> ranks = new LinkedList<String>();
 

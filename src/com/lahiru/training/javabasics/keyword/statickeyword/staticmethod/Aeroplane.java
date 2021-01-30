@@ -11,7 +11,7 @@ public class Aeroplane {
 
     // static methods also belong to a class instead of the object,
     // and so they can be called without creating the object of the
-    // class in which they reside. They're meant to be used without
+    // class in which they reside. They are meant to be used without
     // creating objects of the class
     static void accelerate(){
         System.out.println("Accelerating...");
